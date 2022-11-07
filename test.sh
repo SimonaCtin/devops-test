@@ -6,11 +6,15 @@ echo "Buna $name"
 sleep 3
 utilizator=$(whoami)
 echo "Esti logat cu userul $utilizator"
-sleep 3
+sleep 2
 director=$(pwd)
 echo "Te afli in directorul $director"
-sleep 3
+sleep 2
 data=$(date)
 echo "Azi este $data"
-sleep 3
+sleep 2
 
+echo "Te vei imbogati la varsta de $(($RANDOM %99)) ani "
+
+
+sleep 2
