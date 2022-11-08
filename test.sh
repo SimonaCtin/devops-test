@@ -14,7 +14,7 @@ data=$(date)
 echo "Azi este $data"
 sleep 2
 
-echo "Te vei imbogati la varsta de $(($RANDOM %99)) ani "
+echo "$mame, te vei imbogati la varsta de $(($RANDOM %99)) ani "
 
 
 sleep 2
